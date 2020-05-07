@@ -40,6 +40,12 @@ figure.imageBox {
     margin-top:15px;
 }
 
+img.headerGif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 p {
     line-height:1.25em;
 }
@@ -68,6 +74,10 @@ h1 {
 h2 {
     clear:left;
     font-weight:700;
+}
+
+h3 {
+    color:darkslategray;
 }
 
 hr.subHeaderLines {
