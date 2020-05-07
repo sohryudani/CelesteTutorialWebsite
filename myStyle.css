@@ -12,6 +12,7 @@ div.mainArea {
     margin-right:7%;
     margin-top:100px;
     margin-bottom:50px;
+    overflow:hidden
 }
 
 div.headNavBar {
@@ -85,7 +86,7 @@ hr.subHeaderLines {
 }
 
 table.imageTable {
-    border: 1px solid rgb(11, 7, 30);;
+    border: 1px solid rgb(11, 7, 30);
     background-color:inherit;
 }
 
