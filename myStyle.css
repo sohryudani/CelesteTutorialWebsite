@@ -25,8 +25,8 @@ div.headNavBar {
     background-color:darkslateblue;
     display:flex;
     flex-direction:row;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-wrap:wrap;
+    align-items:center;
     justify-content:left;
 }
 
@@ -34,11 +34,26 @@ div.navBarContent {
     margin-right:5%;
 }
 
+div.dropDownMenu {
+    display:none;
+    position:absolute;
+    background-color:darkslateblue;
+    min-width:230px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    border:1px solid rgb(11, 7, 30);;
+}
+
 figure.imageBox {
     float:right;
     margin:25px;
     margin-bottom:15px;
     margin-top:15px;
+}
+
+figure.tableFigure {
+    width:95%; 
+    margin:2.5%;
 }
 
 img.headerGif {
@@ -52,6 +67,8 @@ p {
 }
 
 p.caption {
+    margin-top:10px;
+    margin-bottom:0;
     font-size:.75em;
 }
 
@@ -88,6 +105,8 @@ hr.subHeaderLines {
 table.imageTable {
     border: 1px solid rgb(11, 7, 30);
     background-color:inherit;
+    width:100%; 
+    text-align:center;
 }
 
 a {
@@ -109,7 +128,19 @@ a.pageLink {
     padding-right:5%;
 }
 
+a.dropLink {
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:10px;
+    width:220px;
+}
+
 a.pageLink:hover {
+    color:inherit;
+    background-color:rgb(38, 33, 75);
+}
+
+a.dropLink:hover {
     color:inherit;
     background-color:rgb(38, 33, 75);
 }
