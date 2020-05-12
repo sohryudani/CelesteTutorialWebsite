@@ -174,3 +174,12 @@ a.inTextLink:hover {
     text-decoration:underline;
     color:darkslategray;
 }
+
+@media screen and (orientation: landscape) {
+    @media (min-width:1370px) {
+        div.mainArea {
+            margin-left:17%;
+            margin-right:17%;
+        }
+    }
+}
