@@ -57,9 +57,9 @@ figure.tableFigure {
 }
 
 img.headerGif {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 p {
@@ -107,6 +107,13 @@ table.imageTable {
     background-color:inherit;
     width:100%; 
     text-align:center;
+    margin-bottom:5px;
+}
+
+table#rightFloatTable {
+    float:right;
+    width:40%;
+    margin-left:25px;
 }
 
 a {
