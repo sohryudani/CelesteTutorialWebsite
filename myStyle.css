@@ -56,6 +56,13 @@ figure.tableFigure {
     margin:2.5%;
 }
 
+figure.centerGif {
+    width:100%; 
+    text-align:center; 
+    margin-bottom:15px; 
+    margin-left:0;
+}
+
 img.headerGif {
     display:block;
     margin-left:auto;
@@ -100,6 +107,7 @@ h3 {
 
 hr.subHeaderLines {
     color:darkslateblue;
+    clear:both;
 }
 
 table.imageTable {
@@ -115,6 +123,11 @@ table#rightFloatTable {
     width:40%;
     margin-left:25px;
 }
+
+iframe {
+    display: block;
+    margin: 0 auto;
+ }
 
 a {
     color:inherit;
