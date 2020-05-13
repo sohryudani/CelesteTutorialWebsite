@@ -63,6 +63,62 @@ figure.centerGif {
     margin-left:0;
 }
 
+figure#timerFigure {
+    width:300px;
+    margin-right:0;
+}
+
+figure#superBox {
+    width:35%;
+    margin-left:0;
+    margin-top:0;
+    max-height:266px;
+    max-width:320px;
+    float:left;
+}
+
+figure#waveDash {
+    width:40%;
+    margin-right:0;
+    margin-top:15px;
+    max-height:240px;
+    max-width:300px
+}
+
+figure#wallBounce {
+    width:30%;
+    margin-left:0;
+    margin-top:0;
+    max-height:300px;
+    max-width:195px;
+    float:left;
+}
+
+figure#spikeJump {
+    width:25%;
+    margin-right:0;
+    margin-top:0;
+    max-height:425px;
+    max-width:200px
+}
+
+figure#demoDash {
+    width:35%;
+    margin-left:0;
+    margin-top:0;
+    max-height:225px;
+    max-width:225px;
+    float:left;
+}
+
+figure.keyskip3 {
+    width:30%;
+    margin-right:0;
+    margin-top:0;
+    max-height:300px;
+    max-width:195px
+}
+
 img.headerGif {
     display:block;
     margin-left:auto;
@@ -81,6 +137,12 @@ img#bubsdrop {
     max-width:900px;
 }
 
+img#hyperChain {
+    width:60%;
+    max-height:278px;
+    max-width:900px
+}
+
 p {
     line-height:1.25em;
 }
@@ -92,7 +154,7 @@ p.caption {
 }
 
 h1, h2 {
-    color:rgb(232, 135, 176);
+    color:rgb(228, 167, 192);
     background-color:rgb(143, 0, 16);
     width:-moz-fit-content;
     width:fit-content;
@@ -201,11 +263,12 @@ a.inTextLink:hover {
             padding:15px;
             margin-left:0%;
             margin-right:0%;
-            margin-top:40%;
+            margin-top:50%;
         }
 
-        div.navBarContent {
-            margin-right:45%;
+        div.headNavBar {
+            flex-direction:column;
+            align-items: flex-start;
         }
 
         div.dropDownMenu {
@@ -248,5 +311,28 @@ a.inTextLink:hover {
 
         h3 {
             font-size:1.05em;
+        }
+
+        img#hyperChain {
+            width:90%;
+        }
+
+        figure#timerFigure {
+            float:none;
+            margin-left:auto;
+            margin-right:auto;
+            text-align:center;
+        }
+
+        figure#superBox, figure#waveDash, figure#wallBounce, figure#demoDash {
+            width:45%;
+        }
+
+        figure#superBox {
+            margin-bottom:15px;
+        }
+
+        figure#spikeJump, figure#keyskip3 {
+            width:35%;
         }
     }
