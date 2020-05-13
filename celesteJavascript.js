@@ -7,13 +7,10 @@ glitchDrop = document.getElementById("glitchDrop");
 navBarDash.addEventListener("mouseover", dashDropDown);
 navBarDash.addEventListener("mouseout", dashDropClose);
 navBarDash.addEventListener("touchstart", dashDropDown);
-navBarDash.addEventListener("touchend", dashDropClose);
 
 navBarGlitch.addEventListener("mouseover", glitchDropDown);
 navBarGlitch.addEventListener("mouseout", glitchDropClose);
 navBarGlitch.addEventListener("touchstart", glitchDropDown);
-navBarGlitch.addEventListener("touchend", glitchDropClose);
-
 
 function dashDropDown() {
     dashingDrop.style.display = "block";
@@ -22,7 +19,7 @@ function dashDropDown() {
 function dashDropClose() {
     if (dashingDrop.style.display == "block") {
         dashingDrop.style.display = "none";
-      }
+    }
 }
 
 function glitchDropDown() {
